@@ -2,7 +2,7 @@ var mickeyscore = 0;
 var goofyscore = 0;
 var weapons = ['rock', 'paper', 'scissors'];
 
-while (mickeyscore < 3 || goofyscore < 3) {
+while (mickeyscore < 3 && goofyscore < 3) {
   var mickeyweaponOfChoice = weapons[parseInt(Math.random()*weapons.length) %3];
   var goofyweaponOfChoice = weapons[parseInt(Math.random()*weapons.length) %2];
   console.log("mickey played " + mickeyweaponOfChoice);
