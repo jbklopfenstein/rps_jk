@@ -38,7 +38,7 @@ var slideshow = {
 
   // play: this.playInterval = setTimeout(function() {
   //   this.nextPhoto()
-  // }.bind(this), 2000),
+  // }.bind(this), 2000), //this doesnt work bc this is binding the this from here to the this                        //of the function but want to bind this from here to the this of the                        //nextPhoto function!!!!
 
   // pause: function(){
   //   clearInterval(this.playInterval);

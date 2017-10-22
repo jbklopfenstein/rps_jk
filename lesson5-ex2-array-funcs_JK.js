@@ -30,8 +30,8 @@ var FullmoreThanFive =
       return rbplayerswithfive.position == "RB" && rbplayerswithfive.touchdowns > 5;
     })
     .map(function(player){
-      //return `$(player).firstName $(player).lastName`;
-      return player.firstName + ' ' + player.lastName;
+      return `${player.firstName} ${player.lastName}`;
+      //return player.firstName + ' ' + player.lastName;
 });
 console.log(FullmoreThanFive);
 
